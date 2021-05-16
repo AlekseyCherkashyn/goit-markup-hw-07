@@ -1,0 +1,27 @@
+.menu {
+  display: inline-flex;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &__item {
+    color: var(--title-cl);
+  }
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__contact:not(:last-child) {
+    margin-right: 20px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+  }
+
+  &__icons-svg {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+}

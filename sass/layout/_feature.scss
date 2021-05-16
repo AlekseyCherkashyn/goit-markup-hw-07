@@ -1,0 +1,9 @@
+.feature__item {
+  flex-basis: calc((100% - 4 * 30px) / 4);
+}
+
+.feature__icon {
+  padding: 25px 100px;
+  background-color: var(--second-bg);
+  border-radius: 4px;
+}
