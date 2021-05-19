@@ -1,43 +1,44 @@
 .subs {
   display: flex;
+}
 
-  &__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 200px;
-    padding: 0;
+.subs__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 200px;
+  padding: 0;
 
-    border: none;
-    border-radius: 4px;
-    color: var(--alt-title-cl);
-    background-color: var(--accent-cl);
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  color: var(--alt-title-cl);
+  background-color: var(--accent-cl);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-    font: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-  }
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
 
-  &__input {
-    flex: 1;
-    margin-right: 12px;
-    padding: 18px 24px 12px 24px;
-    background: inherit;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    outline: none;
+.subs__input {
+  flex: 1;
+  margin-right: 12px;
+  padding: 18px 24px 12px 24px;
+  background: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: none;
 
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: inherit;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  &_svg {
-    margin-left: 10px;
-    fill: var(--alt-title-cl);
-  }
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: inherit;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subs_svg {
+  margin-left: 10px;
+  fill: var(--alt-title-cl);
 }

@@ -1,16 +1,16 @@
 .page-header {
   border-bottom: 1px solid #ececec;
+}
 
-  &__container {
-    display: flex;
-    align-items: center;
-  }
+.page-header__container {
+  display: flex;
+  align-items: center;
+}
 
-  &__logo {
-    margin-right: 93px;
-  }
+.page-header__logo {
+  margin-right: 93px;
+}
 
-  &__nav {
-    margin-right: auto;
-  }
+.page-header__nav {
+  margin-right: auto;
 }

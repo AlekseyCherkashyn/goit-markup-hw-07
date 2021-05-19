@@ -1,20 +1,20 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
-  &__title {
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--title-cl);
-  }
+.section__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-cl);
+}
 
-  &_subtitle {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--title-cl);
-    text-transform: uppercase;
-  }
+.section_subtitle {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-cl);
+  text-transform: uppercase;
 }
